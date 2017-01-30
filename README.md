@@ -6,6 +6,8 @@ Contributions are always welcome!
 * [.NET design patterns](#dotnet-design-patterns)
  * [Behavioral patterns](#behavioral)
    * [Chain of responsibility](#chain-of-responsibility)
+ * [Generating patterns](#generating)
+   * [Singleton](#singleton)
 
 ## Chain of responsibility
 
@@ -15,3 +17,9 @@ Contributions are always welcome!
     * All messages should be handled at least by one handler in a system.
     * The messages in a system handle by the next scheme "Handle by yourself or send to other", it means, that some messages we handle on the level where we get them and the others we send to the objects of another level.  
   
+## Singleton
+
+* This is a generating pattern, which provides you with guarantee, that this object is only one in the one-thread application and has global access point. 
+  * This pattern is recommended in the following cases:
+    * We need an instace of an object, which has a single representation withit a system.
+    * We need an access to some resource, which is used by different parts of our application like a unity container.  
