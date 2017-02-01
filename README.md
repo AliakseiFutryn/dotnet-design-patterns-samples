@@ -5,21 +5,29 @@ Contributions are always welcome!
 
 * [.NET design patterns](#dotnet-design-patterns)
  * [Behavioral patterns](#behavioral)
-   * [Chain of responsibility](#chain-of-responsibility)
+    * [Chain of responsibility](#chain-of-responsibility)
  * [Generating patterns](#generating)
-   * [Singleton](#singleton)
+    * [Builder](#builder)
+    * [Singleton](#singleton)
 
-## Chain of responsibility
+## [Chain of responsibility](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Behavioral/ChainOfResponsibility/SampleLauncher.cs)
 
 * This patterns can be used, when we need to oraganize some levels of responsibility in our system/application.
   * This pattern is recommended in the following cases:
-    * In a developing system we have a group of objects, which can handle messages of a certain type.
+    * You have a group of objects, which can handle messages of a certain type.
     * All messages should be handled at least by one handler in a system.
     * The messages in a system handle by the next scheme "Handle by yourself or send to other", it means, that some messages we handle on the level where we get them and the others we send to the objects of another level.  
   
-## Singleton
+## [Builder](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Generating/Builder/SampleLauncher.cs)
+
+* The builder pattern is responsible for separating constructing of large object from his representation. It means, that you can receive different representation after the similar construction process.
+  * This pattern is recommended in the following cases:
+    * You should construct a large object with many different properties.
+    * You should construct one object from another.
+    
+## [Singleton](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Generating/Singleton/SampleLauncher.cs)
 
 * This is a generating pattern, which provides you with guarantee, that this object is only one in the one-thread application and has global access point. 
   * This pattern is recommended in the following cases:
-    * We need an instace of an object, which has a single representation withit a system.
-    * We need an access to some resource, which is used by different parts of our application like a unity container.  
+    * You need an instace of an object, which has a single representation withit a system.
+    * You need an access to some resource, which is used by different parts of our application like a unity container.  
