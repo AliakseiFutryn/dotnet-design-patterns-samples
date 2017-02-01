@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "Be
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Generating\Singleton\Singleton.csproj", "{3A7ECB44-A333-4A12-9F8A-924664414F49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Generating\Builder\Builder.csproj", "{F30AC3DD-988E-46EA-A5C4-B91F79051626}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3A7ECB44-A333-4A12-9F8A-924664414F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A7ECB44-A333-4A12-9F8A-924664414F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A7ECB44-A333-4A12-9F8A-924664414F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30AC3DD-988E-46EA-A5C4-B91F79051626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30AC3DD-988E-46EA-A5C4-B91F79051626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30AC3DD-988E-46EA-A5C4-B91F79051626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30AC3DD-988E-46EA-A5C4-B91F79051626}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{78451868-D38D-4E05-9A11-B666EDB5AA37} = {A9F03E35-1913-4957-8F3E-BDFF763FFEFC}
 		{3A7ECB44-A333-4A12-9F8A-924664414F49} = {57435215-464A-4EF1-9879-4DD4E3AB0B23}
+		{F30AC3DD-988E-46EA-A5C4-B91F79051626} = {57435215-464A-4EF1-9879-4DD4E3AB0B23}
 	EndGlobalSection
 EndGlobal

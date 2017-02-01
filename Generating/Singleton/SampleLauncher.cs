@@ -75,8 +75,8 @@ namespace Singleton
 				lazySingletonInstance.ParticipantsCount++;
 				doubleCheckedSingletonInstance.ParticipantsCount++;
 
-				Console.WriteLine("[Multithreading] The participants count are equal in all instances of LazySingleton: {0}", meetings.Take(10).All(m => m.ParticipantsCount == lazySingletonInstance.ParticipantsCount));
-				Console.WriteLine("[Multithreading] The participants count are equal in all instances of DoubleCheckedSingleton: {0}", meetings.Skip(10).All(m => m.ParticipantsCount == lazySingletonInstance.ParticipantsCount));
+				Console.WriteLine("[Multithreading] The participants count are equal in all instances of LazySingleton: {0}", meetings.Take(ThreadsCount / 2).All(m => m.ParticipantsCount == lazySingletonInstance.ParticipantsCount));
+				Console.WriteLine("[Multithreading] The participants count are equal in all instances of DoubleCheckedSingleton: {0}", meetings.Skip(ThreadsCount / 2).All(m => m.ParticipantsCount == lazySingletonInstance.ParticipantsCount));
 			}
 		}
 	}
