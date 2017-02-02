@@ -9,6 +9,7 @@ Contributions are always welcome!
  * [Generating patterns](#generating)
     * [Builder](#builder)
     * [Singleton](#singleton)
+    * [Abstract Factory](#abstract-factory)
 
 ## [Chain of responsibility](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Behavioral/ChainOfResponsibility/SampleLauncher.cs)
 
@@ -30,4 +31,11 @@ Contributions are always welcome!
 * This is a generating pattern, which provides you with guarantee, that this object is only one in the one-thread application and has global access point. 
   * This pattern is recommended in the following cases:
     * You need an instace of an object, which has a single representation withit a system.
-    * You need an access to some resource, which is used by different parts of our application like a unity container.  
+    * You need an access to some resource, which is used by different parts of our application like a unity container.
+    
+## [Abstract Factory](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Generating/AbstractFactory/SampleLauncher.cs)
+
+* This is a generating pattern and it represents the strategy for creating a family of dependent or related objects.
+  * This pattern is recommended in the following cases:
+    * You have to create many different objects and they inherited from the similar class or they have lots of similar properties.
+    * You want to change behavior of your code by using different classes which implement a similar interface.
