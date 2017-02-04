@@ -9,6 +9,7 @@ Contributions are always welcome!
  * [Generating patterns](#generating)
     * [Builder](#builder)
     * [Singleton](#singleton)
+    * [Null Object](#null-object)
     * [Factory Method](#factory-method)
     * [Abstract Factory](#abstract-factory)
 
@@ -35,6 +36,12 @@ Contributions are always welcome!
   * This pattern is recommended in the following cases:
     * You need an instace of an object, which has a single representation withit a system.
     * You need an access to some resource, which is used by different parts of our application like a unity container.
+
+## [Null Object](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Generating/NullObject/SampleLauncher.cs)
+* This is a generating patter, instead of using a null reference to convey absence of an object (for instance, a non-existent customer), one uses an object which implements the expected interface, but whose method body is empty. The advantage of this approach over a working default implementation is that a Null Object is very predictable and has no side effects: it does nothing.
+  * This pattern is recommended in the following cases:
+    * When you have many objects, which implement special interface and you have to perform some action without any errors.
+    * This pattern can also be used to act as a stub for testing, if a certain feature such as a database is not available for testing.
 
 ## [Factory Method](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Generating/FactoryMethod/SampleLauncher.cs)
 * This is a generating pattern, it defines an interface for creating objects, however leaves the decision of which class should be created to subclasses. In conclusion, factory method allow class to delegate an instantiation to subclasses.
