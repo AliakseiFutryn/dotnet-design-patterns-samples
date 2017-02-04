@@ -7,11 +7,11 @@ namespace NullObject.Entities
 		/// <summary>
 		/// The drink name.
 		/// </summary>
-		public override string Name => "Sprite";
+		public override string Name => string.Empty;
 
 		/// <summary>
 		/// The drink's cost in the US dollars.
 		/// </summary>
-		public override decimal Cost => 2;
+		public override decimal Cost => default(decimal);
 	}
 }
