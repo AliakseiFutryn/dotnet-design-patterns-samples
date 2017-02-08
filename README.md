@@ -10,6 +10,7 @@ Contributions are always welcome!
     * [Builder](#builder)
     * [Singleton](#singleton)
     * [Null Object](#null-object)
+    * [Object Pool](#object-pool)
     * [Factory Method](#factory-method)
     * [Abstract Factory](#abstract-factory)
 
@@ -43,6 +44,13 @@ Contributions are always welcome!
     * When you have many objects, which implement special interface and you have to perform some action without any errors.
     * This pattern can also be used to act as a stub for testing, if a certain feature such as a database is not available for testing.
 
+## [Object Pool](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Generating/ObjectPool/SampleLauncher.cs)
+* The object pool design pattern creates a set of objects that may be reused. When a new object is needed, it is requested from the pool. If a previously prepared object is available it is returned immediately, avoiding the instantiation cost. If no objects are present in the pool, a new item is created and returned.
+  * This pattern is recommended in the following cases:
+    * You shoul work with a large number of objects that are particularly expensive to instantiate and each object is only needed for a short period of time.
+    * You want to improve performance of some piece of code, where you have many objects, which you can reuse.
+* As well you can find a perfect example of object pool pattern from Googler [here](http://stackoverflow.com/questions/2510975/c-sharp-object-pooling-pattern-implementation) (answer with number five).
+  
 ## [Factory Method](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Generating/FactoryMethod/SampleLauncher.cs)
 * This is a generating pattern, it defines an interface for creating objects, however leaves the decision of which class should be created to subclasses. In conclusion, factory method allow class to delegate an instantiation to subclasses.
   * This pattern is recommended in the following cases:
@@ -51,7 +59,6 @@ Contributions are always welcome!
     * The object's creation requires information not accessible to the composing object.
 
 ##  [Abstract Factory](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Generating/AbstractFactory/SampleLauncher.cs)
-
 * This is a generating pattern and it represents the strategy for creating a family of dependent or related objects.
   * This pattern is recommended in the following cases:
     * You have to create many different objects and they inherited from the similar class or they have lots of similar properties.
