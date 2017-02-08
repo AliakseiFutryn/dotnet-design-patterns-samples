@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObject", "Generating\Nu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectPool", "Generating\ObjectPool\ObjectPool.csproj", "{5A355709-233E-48F2-9401-B1FF1590F329}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Generating\Prototype\Prototype.csproj", "{2929033B-FC4C-4DA4-822A-A009F9C1FD4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{5A355709-233E-48F2-9401-B1FF1590F329}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A355709-233E-48F2-9401-B1FF1590F329}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A355709-233E-48F2-9401-B1FF1590F329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2929033B-FC4C-4DA4-822A-A009F9C1FD4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2929033B-FC4C-4DA4-822A-A009F9C1FD4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2929033B-FC4C-4DA4-822A-A009F9C1FD4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2929033B-FC4C-4DA4-822A-A009F9C1FD4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,5 +75,6 @@ Global
 		{4F88AAE4-34F7-47E4-B781-FB44EDD73E35} = {57435215-464A-4EF1-9879-4DD4E3AB0B23}
 		{04B0D808-A280-465D-9384-A0B5A03EFD0D} = {57435215-464A-4EF1-9879-4DD4E3AB0B23}
 		{5A355709-233E-48F2-9401-B1FF1590F329} = {57435215-464A-4EF1-9879-4DD4E3AB0B23}
+		{2929033B-FC4C-4DA4-822A-A009F9C1FD4D} = {57435215-464A-4EF1-9879-4DD4E3AB0B23}
 	EndGlobalSection
 EndGlobal
