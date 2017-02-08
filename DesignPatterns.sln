@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "Generating
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObject", "Generating\NullObject\NullObject.csproj", "{04B0D808-A280-465D-9384-A0B5A03EFD0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectPool", "ObjectPool\ObjectPool.csproj", "{5A355709-233E-48F2-9401-B1FF1590F329}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectPool", "Generating\ObjectPool\ObjectPool.csproj", "{5A355709-233E-48F2-9401-B1FF1590F329}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
