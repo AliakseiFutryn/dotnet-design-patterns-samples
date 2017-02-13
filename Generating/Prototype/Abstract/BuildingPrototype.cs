@@ -29,10 +29,8 @@ namespace Prototype.Abstract
 		/// <returns>The string representation.</returns>
 		public override string ToString()
 		{
-			return string.Format("Name: {0}\nHeight: {1}\n", Name, Height);
+			return $"Name: {Name}\nHeight: {Height}\n";
 		}
-
-		#region 
 
 		protected object DeepClone()
 		{
@@ -50,7 +48,5 @@ namespace Prototype.Abstract
 			}
 			return null;
 		}
-
-		#endregion
 	}
 }

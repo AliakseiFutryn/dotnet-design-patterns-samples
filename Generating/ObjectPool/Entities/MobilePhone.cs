@@ -25,7 +25,7 @@ namespace ObjectPool.Entities
 		/// <returns></returns>
 		public override string ToString()
 		{ 
-			return string.Format("Company: {0}\nPrice:{1}\nCreational time: {2}\n", Company, CalculatePrice(), _creationTime.ToLongTimeString());
+			return $"Company: {Company}\nPrice:{CalculatePrice()}\nCreational time: {_creationTime.ToLongTimeString()}\n";
 		}
 
 		/// <summary>

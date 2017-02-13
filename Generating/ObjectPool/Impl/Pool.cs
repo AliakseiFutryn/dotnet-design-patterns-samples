@@ -54,7 +54,7 @@ namespace ObjectPool.Impl
 		/// <returns>The string with pool status.</returns>
 		public static string GetPoolStatus()
 		{
-			return string.Format("InUse: {0}\nAvailable: {1}\n", _isInUseObjects.Count, _availableObjects.Count);
+			return $"InUse: {_isInUseObjects.Count}\nAvailable: {_availableObjects.Count}\n";
 		}
 
 		#region Private members

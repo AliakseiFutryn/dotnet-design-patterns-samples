@@ -36,7 +36,7 @@ namespace ChainOfResponsibility.Abstract
 			if (_successor != null) return _successor.GetAccessToken(resourceType);
 			else
 			{
-				string exceptionMessage = string.Format("The {0} resource type cannot be handled by current successors.", resourceType);
+				string exceptionMessage = $"The {resourceType} resource type cannot be handled by current successors.";
 				throw new Exception(exceptionMessage);
 			}
 		}

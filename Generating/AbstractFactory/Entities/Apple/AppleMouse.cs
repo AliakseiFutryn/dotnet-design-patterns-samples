@@ -27,7 +27,7 @@ namespace AbstractFactory.Entities.Apple
 
 		public override string ToString()
 		{
-			return string.Format("Model: {0}\nPrice: {1}\nType: {2}\nVendor: {3}\n", Model, Price, Type, Vendor);
+			return $"Model: {Model}\nPrice: {Price}\nType: {Type}\nVendor: {Vendor}\n";
 		}
 	}
 }

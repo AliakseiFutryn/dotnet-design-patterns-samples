@@ -27,7 +27,7 @@ namespace AbstractFactory.Entities.Hp
 
 		public override string ToString()
 		{
-			return string.Format("Model: {0}\nPrice: {1}\nCpu: {2}\nVendor: {3}\n", Model, Price, Cpu, Vendor);
+			return $"Model: {Model}\nPrice: {Price}\nCpu: {Cpu}\nVendor: {Vendor}\n";
 		}
 	}
 }

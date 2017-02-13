@@ -22,7 +22,7 @@ namespace Singleton
 			// should have a similar reference.
 			CheckSingletonInMultithreadingMode();
 
-			Console.WriteLine("Please enter any key to exit...");
+			Console.WriteLine("Please press any key to exit...");
 			Console.ReadKey();
 		}
 
@@ -39,18 +39,18 @@ namespace Singleton
 			Thread[] threads = new Thread[ThreadsCount];
 			Meeting[] meetings = new Meeting[ThreadsCount];
 			EventWaitHandle threadsFinishedEvent = new EventWaitHandle(false, EventResetMode.AutoReset);
-			using (Barrier startBarrier = new Barrier(ThreadsCount), finishBarrier = new Barrier(ThreadsCount, (barrier) => threadsFinishedEvent.Set()))
+			using (Barrier startBarrier = new Barrier(ThreadsCount), finishBarrier = new Barrier(ThreadsCount, barrier => threadsFinishedEvent.Set()))
 			{
 				for (int index = 0; index < ThreadsCount; index++)
 				{
-					threads[index] = new Thread((threadIndex) =>
+					threads[index] = new Thread(threadIndex =>
 					{
-						// Synhronizes all threads before start.
+						// Synchronizes all threads before start.
 						startBarrier.SignalAndWait();
 						try
 						{
-							int currentIdnex = (int)threadIndex;
-							meetings[currentIdnex] = currentIdnex >= ThreadsCount / 2 ? DoubleCheckedSingleton<Meeting>.Instance : LazySingleton<Meeting>.Instance;
+							int currentIndex = (int)threadIndex;
+							meetings[currentIndex] = currentIndex >= ThreadsCount / 2 ? DoubleCheckedSingleton<Meeting>.Instance : LazySingleton<Meeting>.Instance;
 						}
 						catch (Exception ex)
 						{
@@ -75,8 +75,8 @@ namespace Singleton
 				lazySingletonInstance.ParticipantsCount++;
 				doubleCheckedSingletonInstance.ParticipantsCount++;
 
-				Console.WriteLine("[Multithreading] The participants count are equal in all instances of LazySingleton: {0}", meetings.Take(ThreadsCount / 2).All(m => m.ParticipantsCount == lazySingletonInstance.ParticipantsCount));
-				Console.WriteLine("[Multithreading] The participants count are equal in all instances of DoubleCheckedSingleton: {0}", meetings.Skip(ThreadsCount / 2).All(m => m.ParticipantsCount == lazySingletonInstance.ParticipantsCount));
+				Console.WriteLine("The participants count are equal in both instances of singleton: {0}", meetings.Take(ThreadsCount / 2).All(m => m.ParticipantsCount == lazySingletonInstance.ParticipantsCount));
+				Console.WriteLine("The participants count are equal in both instances of singleton: {0}", meetings.Skip(ThreadsCount / 2).All(m => m.ParticipantsCount == lazySingletonInstance.ParticipantsCount));
 			}
 		}
 	}

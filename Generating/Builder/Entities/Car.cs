@@ -35,7 +35,7 @@ namespace Builder.Entities
 		/// <returns></returns>
 		public override string ToString()
 		{
-			return string.Format("Mark: {0}\nModel: {1}\nColor: {2}\nHorses: {3}\nTransmisson: {4}\n", Mark, Model, Color, Horses, Transmission);
+			return $"Mark: {Mark}\nModel: {Model}\nColor: {Color}\nHorses: {Horses}\nTransmisson: {Transmission}\n";
 		}
 	}
 }

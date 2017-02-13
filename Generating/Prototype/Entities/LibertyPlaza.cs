@@ -47,7 +47,7 @@ namespace Prototype.Entities
 		/// <returns>The string representation.</returns>
 		public override string ToString()
 		{
-			return string.Format("{0}Floors: {1}\n", base.ToString(), Floors);
+			return $"{base.ToString()}Floors: {Floors}\n";
 		}
 	}
 }

@@ -26,7 +26,7 @@ namespace NullObject.Abstract
 
 		public override string ToString()
 		{
-			return string.Format("Name: {0}\nCost: {1}\n", Name, Cost);
+			return $"Name: {Name}\nCost: {Cost}\n";
 		}
 	}
 }
