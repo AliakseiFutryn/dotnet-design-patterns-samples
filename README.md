@@ -14,6 +14,8 @@ Contributions are always welcome!
     * [Object Pool](#object-pool)
     * [Factory Method](#factory-method)
     * [Abstract Factory](#abstract-factory)
+ * [Structural patterns](#structural)
+    * [Adapter](#adapter)
 
 ## Behavioral
 ## [Chain of responsibility](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Behavioral/ChainOfResponsibility/SampleLauncher.cs)
@@ -70,3 +72,11 @@ Contributions are always welcome!
   * This pattern is recommended in the following cases:
     * You have to create many different objects and they inherited from the similar class or they have lots of similar properties.
     * You want to change behavior of your code by using different classes which implement a similar interface.
+
+## Structural
+## [Adapter](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Structural/Adapter/SampleLauncher.cs)
+
+* This is a structural pattern, that allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code. [wiki](https://en.wikipedia.org/wiki/Adapter_pattern)
+  * This pattern is recommended in the following cases:
+    * When you have to create a wrapper, that must respect a particular interface and must support polymorphic behavior
+    * When you have a situation, where classes with different interfaces should work together.
