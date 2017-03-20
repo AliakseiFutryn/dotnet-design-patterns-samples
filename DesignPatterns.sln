@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Generating\Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{62A8E34F-F17A-4740-883C-F8CF82A9DF66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Structural\Composite\Composite.csproj", "{F9CEE432-D246-4515-A0EB-D030E21324E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{62A8E34F-F17A-4740-883C-F8CF82A9DF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62A8E34F-F17A-4740-883C-F8CF82A9DF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62A8E34F-F17A-4740-883C-F8CF82A9DF66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CEE432-D246-4515-A0EB-D030E21324E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CEE432-D246-4515-A0EB-D030E21324E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CEE432-D246-4515-A0EB-D030E21324E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CEE432-D246-4515-A0EB-D030E21324E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,5 +89,6 @@ Global
 		{5A355709-233E-48F2-9401-B1FF1590F329} = {57435215-464A-4EF1-9879-4DD4E3AB0B23}
 		{2929033B-FC4C-4DA4-822A-A009F9C1FD4D} = {57435215-464A-4EF1-9879-4DD4E3AB0B23}
 		{62A8E34F-F17A-4740-883C-F8CF82A9DF66} = {B3D74B27-CE92-449A-90F9-76983470A74F}
+		{F9CEE432-D246-4515-A0EB-D030E21324E8} = {B3D74B27-CE92-449A-90F9-76983470A74F}
 	EndGlobalSection
 EndGlobal

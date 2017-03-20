@@ -14,7 +14,7 @@ namespace ObjectPool
 		static void Main(string[] args)
 		{
 			// Synhronization construction.
-			_barrier = new Barrier(3, (barrier) =>
+			_barrier = new Barrier(3, barrier =>
 			{
 				if (barrier.CurrentPhaseNumber == 1)
 				{
@@ -41,7 +41,7 @@ namespace ObjectPool
 		static Task GetDisplayTask(Company company)
 		{
 			return Task.Factory.StartNew(() => DisplayPooledObject(company))
-				.ContinueWith((task) => Task.Factory.StartNew(() => DisplayPooledObject(company)));
+				.ContinueWith(task => Task.Factory.StartNew(() => DisplayPooledObject(company)));
 		}
 		
 		/// <summary>
