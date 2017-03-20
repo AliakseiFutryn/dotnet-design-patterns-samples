@@ -4,9 +4,9 @@ Here you can find the most popular .NET patterns. You can borrow ideas from this
 Contributions are always welcome!
 
 * [.NET design patterns](#dotnet-design-patterns)
- * [Behavioral patterns](#behavioral)
+  * [Behavioral patterns](#behavioral)
     * [Chain of responsibility](#chain-of-responsibility)
- * [Generating patterns](#generating)
+  * [Generating patterns](#generating)
     * [Builder](#builder)
     * [Singleton](#singleton)
     * [Prototype](#prototype)
@@ -14,8 +14,9 @@ Contributions are always welcome!
     * [Object Pool](#object-pool)
     * [Factory Method](#factory-method)
     * [Abstract Factory](#abstract-factory)
- * [Structural patterns](#structural)
+  * [Structural patterns](#structural)
     * [Adapter](#adapter)
+    * [Composite](#composite)
 
 ## Behavioral
 ## [Chain of responsibility](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Behavioral/ChainOfResponsibility/SampleLauncher.cs)
@@ -78,5 +79,12 @@ Contributions are always welcome!
 
 * This is a structural pattern, that allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code. [wiki](https://en.wikipedia.org/wiki/Adapter_pattern)
   * This pattern is recommended in the following cases:
-    * When you have to create a wrapper, that must respect a particular interface and must support polymorphic behavior
+    * When you have to create a wrapper, that must respect a particular interface and must support polymorphic behavior.
     * When you have a situation, where classes with different interfaces should work together.
+    
+## [Composite](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Structural/Composite/SampleLauncher.cs)
+
+* This is a structural pattern, that describes that a group of objects is to be treated in the same way as a single instance of an object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies. Implementing the composite pattern lets clients treat individual objects and compositions uniformly. [wiki](https://en.wikipedia.org/wiki/Composite_pattern)
+  * This pattern is recommended in the following cases:
+    * When you have a situation, where you can ignore the difference between compositions of objects and individual objects.
+    * When you have a situation, where you are using multiple objects in the same way, and you often have nearly identical code to handle each of them.
