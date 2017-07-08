@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{A9F03E35-1913-4957-8F3E-BDFF763FFEFC}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{62A8E34F-F17A-4740-883C-F8CF82A9DF66}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Structural\Composite\Composite.csproj", "{F9CEE432-D246-4515-A0EB-D030E21324E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Behavioral\Command\Command.csproj", "{A097FEE7-CBDA-422E-8BF4-454461A10A1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{F9CEE432-D246-4515-A0EB-D030E21324E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9CEE432-D246-4515-A0EB-D030E21324E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9CEE432-D246-4515-A0EB-D030E21324E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A097FEE7-CBDA-422E-8BF4-454461A10A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A097FEE7-CBDA-422E-8BF4-454461A10A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A097FEE7-CBDA-422E-8BF4-454461A10A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A097FEE7-CBDA-422E-8BF4-454461A10A1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,5 +96,6 @@ Global
 		{2929033B-FC4C-4DA4-822A-A009F9C1FD4D} = {57435215-464A-4EF1-9879-4DD4E3AB0B23}
 		{62A8E34F-F17A-4740-883C-F8CF82A9DF66} = {B3D74B27-CE92-449A-90F9-76983470A74F}
 		{F9CEE432-D246-4515-A0EB-D030E21324E8} = {B3D74B27-CE92-449A-90F9-76983470A74F}
+		{A097FEE7-CBDA-422E-8BF4-454461A10A1F} = {A9F03E35-1913-4957-8F3E-BDFF763FFEFC}
 	EndGlobalSection
 EndGlobal
