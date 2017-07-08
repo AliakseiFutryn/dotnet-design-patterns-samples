@@ -22,7 +22,7 @@ Contributions are always welcome!
 ## Behavioral
 ## [Command](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Command)
 
-* This pattern can be used, when we need to create a system where a sender and receiver will be independend of each other.
+* This pattern can be used, when we need to create a system where a sender and receiver will be independend of each other. [wiki](https://en.wikipedia.org/wiki/Command_pattern)
   * This pattern is recommended in the following cases:
     * You need to make sender and receiver to be independed of each other.
     * You have to get a command as a result like any other objects.
