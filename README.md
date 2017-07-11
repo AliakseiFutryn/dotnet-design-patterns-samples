@@ -6,6 +6,7 @@ Contributions are always welcome!
 * [.NET design patterns](#dotnet-design-patterns)
   * [Behavioral patterns](#behavioral)
     * [Command](#command)
+    * [Iterator](#iterator)
     * [Interpreter](#interpreter)
     * [Chain of responsibility](#chain-of-responsibility)
   * [Generating patterns](#generating)
@@ -29,10 +30,18 @@ Contributions are always welcome!
     * You have to get a command as a result like any other objects.
     * You want to process a command like an object. It will allow you to save command or pass a command as a parameter to methods.
 
+## [Iterator](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Iterator)
+
+* This pattern can be used, when you need to get access to all elements of a composite object without disclosure of its representation. [wiki](https://en.wikipedia.org/wiki/Iterator_pattern)
+  * This pattern is recommended in the following cases:
+    * You need to implement your own collection with specific logic.
+    * You need to implement your own properties and methods which usual collections does not have.
+    * You need to iterate elements in a collection by using your own logic.
+
 ## [Interpreter](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Interpreter)
 
 * This pattern can be used, when you need to interpret some symbol (terminal or non-terminal) into C# computer language. [wiki](https://en.wikipedia.org/wiki/Interpreter_pattern)
-  * This pattern is recommended is the following cases:
+  * This pattern is recommended in the following cases:
     * You need to evaluate sentences in a language.
     * You need to interpret some symbols into C# langunage.
     * You want to create your own langunage interpreter.
