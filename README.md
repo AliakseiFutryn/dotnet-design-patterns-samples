@@ -7,6 +7,7 @@ Contributions are always welcome!
   * [Behavioral patterns](#behavioral)
     * [Command](#command)
     * [Iterator](#iterator)
+    * [Mediator](#mediator)
     * [Interpreter](#interpreter)
     * [Chain of responsibility](#chain-of-responsibility)
   * [Generating patterns](#generating)
@@ -37,6 +38,14 @@ Contributions are always welcome!
     * You need to implement your own collection with specific logic.
     * You need to implement your own properties and methods which usual collections does not have.
     * You need to iterate elements in a collection by using your own logic.
+
+## [Mediator](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Mediator)
+
+* This pattern can be used, when you need to interact between two different objects or two different providers. [wiki](https://en.wikipedia.org/wiki/Mediator_pattern)
+  * This pattern is recommended in the following cases:
+    * You need to interact between one or many different classes.
+    * You need to interact between classes which cannot have direct link to each other.
+    * You want to change and analyse classes independently.
 
 ## [Interpreter](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Interpreter)
 
