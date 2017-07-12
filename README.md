@@ -6,6 +6,7 @@ Contributions are always welcome!
 * [.NET design patterns](#dotnet-design-patterns)
   * [Behavioral patterns](#behavioral)
     * [Command](#command)
+    * [Memento](#memento)
     * [Iterator](#iterator)
     * [Mediator](#mediator)
     * [Interpreter](#interpreter)
@@ -30,6 +31,14 @@ Contributions are always welcome!
     * You need to make sender and receiver to be independed of each other.
     * You have to get a command as a result like any other objects.
     * You want to process a command like an object. It will allow you to save command or pass a command as a parameter to methods.
+
+## [Memento](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Memento)
+
+* This pattern can be used, when you need to restore an object to its previous state. [wiki](https://en.wikipedia.org/wiki/Memento_pattern)
+  * This pattern is recommended in the following cases:
+    * You want to have an opportunity to restore object previous state.
+    * You want to restore the previous state of many objects.
+    * You want to return to the previous code behavior after sometime.
 
 ## [Iterator](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Iterator)
 
