@@ -6,6 +6,7 @@ Contributions are always welcome!
 * [.NET design patterns](#dotnet-design-patterns)
   * [Behavioral patterns](#behavioral)
     * [Iterator](#iterator)
+    * [Dispose](#dispose)
     * [Mediator](#mediator)
     * [Memento](#memento)
     * [Command](#command)
@@ -24,22 +25,6 @@ Contributions are always welcome!
     * [Composite](#composite)
 
 ## Behavioral
-## [Command](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Command)
-
-* This pattern can be used, when we need to create a system where a sender and receiver will be independend of each other. [wiki](https://en.wikipedia.org/wiki/Command_pattern)
-  * This pattern is recommended in the following cases:
-    * You need to make sender and receiver to be independed of each other.
-    * You have to get a command as a result like any other objects.
-    * You want to process a command like an object. It will allow you to save command or pass a command as a parameter to methods.
-
-## [Memento](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Memento)
-
-* This pattern can be used, when you need to restore an object to its previous state. [wiki](https://en.wikipedia.org/wiki/Memento_pattern)
-  * This pattern is recommended in the following cases:
-    * You want to have an opportunity to restore object previous state.
-    * You want to restore the previous state of many objects.
-    * You want to return to the previous code behavior after sometime.
-
 ## [Iterator](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Iterator)
 
 * This pattern can be used, when you need to get access to all elements of a composite object without disclosure of its representation. [wiki](https://en.wikipedia.org/wiki/Iterator_pattern)
@@ -48,6 +33,14 @@ Contributions are always welcome!
     * You need to implement your own properties and methods which usual collections does not have.
     * You need to iterate elements in a collection by using your own logic.
 
+## [Dispose](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Dispose)
+
+* This pattern can be used, when you need to manage memory of managed and unmanaged resources. [wiki](https://en.wikipedia.org/wiki/Dispose_pattern)
+  * This pattern is recommended in the following cases:
+    * You have to deal with managed and unmanaged resources in your solution.
+    * You have to deal with managed resources, make sure that in this case you do not need to use the full version of disposable pattern.
+    * You want to control the memory in your application, as it is very important.
+
 ## [Mediator](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Mediator)
 
 * This pattern can be used, when you need to interact between two different objects or two different providers. [wiki](https://en.wikipedia.org/wiki/Mediator_pattern)
@@ -55,6 +48,22 @@ Contributions are always welcome!
     * You need to interact between one or many different classes.
     * You need to interact between classes which cannot have direct link to each other.
     * You want to change and analyse classes independently.
+    
+## [Memento](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Memento)
+
+* This pattern can be used, when you need to restore an object to its previous state. [wiki](https://en.wikipedia.org/wiki/Memento_pattern)
+  * This pattern is recommended in the following cases:
+    * You want to have an opportunity to restore object previous state.
+    * You want to restore the previous state of many objects.
+    * You want to return to the previous code behavior after sometime.
+
+## [Command](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Command)
+
+* This pattern can be used, when we need to create a system where a sender and receiver will be independend of each other. [wiki](https://en.wikipedia.org/wiki/Command_pattern)
+  * This pattern is recommended in the following cases:
+    * You need to make sender and receiver to be independed of each other.
+    * You have to get a command as a result like any other objects.
+    * You want to process a command like an object. It will allow you to save command or pass a command as a parameter to methods.
 
 ## [Interpreter](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Interpreter)
 
