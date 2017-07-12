@@ -5,10 +5,10 @@ Contributions are always welcome!
 
 * [.NET design patterns](#dotnet-design-patterns)
   * [Behavioral patterns](#behavioral)
-    * [Command](#command)
-    * [Memento](#memento)
     * [Iterator](#iterator)
     * [Mediator](#mediator)
+    * [Memento](#memento)
+    * [Command](#command)
     * [Interpreter](#interpreter)
     * [Chain of responsibility](#chain-of-responsibility)
   * [Generating patterns](#generating)
