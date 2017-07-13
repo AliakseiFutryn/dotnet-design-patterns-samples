@@ -27,7 +27,7 @@ Contributions are always welcome!
     * [Composite](#composite)
 
 ## Behavioral
-## [State](https://en.wikipedia.org/wiki/State_pattern)
+## [State](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/State)
 * This pattern can be used, when the object have to change its behavior at runtime. [wiki](https://en.wikipedia.org/wiki/State_pattern)
   * This pattern is recommended in the following cases:
     * You want to create an objech which can change its behavior at runtime.
