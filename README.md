@@ -7,6 +7,7 @@ Contributions are always welcome!
   * [Behavioral patterns](#behavioral)
     * [Iterator](#iterator)
     * [Dispose](#dispose)
+    * [Observer](#observer)
     * [Mediator](#mediator)
     * [Memento](#memento)
     * [Command](#command)
@@ -40,6 +41,14 @@ Contributions are always welcome!
     * You have to deal with managed and unmanaged resources in your solution.
     * You have to deal with managed resources, make sure that in this case you do not need to use the full version of disposable pattern.
     * You want to control the memory in your application, as it is very important.
+
+# [Observer](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Observer)
+
+* This pattern can be used, when you want to have a heap of dependent objects which can notify each other about its changes. [wiki](https://en.wikipedia.org/wiki/Observer_pattern)
+  * This pattern is recommended in the following cases:
+    * You have a heap of dependent objects and you want to notify all objects, when one of them was changed.
+    * You want to notify some objects, when observer state changed.
+    * You have some pieces of your code, which should be notified in case, when observer was changed.
 
 ## [Mediator](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Mediator)
 
