@@ -5,6 +5,7 @@ Contributions are always welcome!
 
 * [.NET design patterns](#dotnet-design-patterns)
   * [Behavioral patterns](#behavioral)
+    * [State](#state)
     * [Iterator](#iterator)
     * [Dispose](#dispose)
     * [Observer](#observer)
@@ -26,6 +27,13 @@ Contributions are always welcome!
     * [Composite](#composite)
 
 ## Behavioral
+## [State](https://en.wikipedia.org/wiki/State_pattern)
+* This pattern can be used, when the object have to change its behavior at runtime. [wiki](https://en.wikipedia.org/wiki/State_pattern)
+  * This pattern is recommended in the following cases:
+    * You want to create an objech which can change its behavior at runtime.
+    * You need to have many strategies of the object behavior.
+    * You have to change code behavior at runtime.
+
 ## [Iterator](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Iterator)
 
 * This pattern can be used, when you need to get access to all elements of a composite object without disclosure of its representation. [wiki](https://en.wikipedia.org/wiki/Iterator_pattern)
