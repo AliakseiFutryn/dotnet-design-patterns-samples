@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dispose", "Behavioral\Dispo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Behavioral\Observer\Observer.csproj", "{46ED05A8-3CBC-43A5-AB6C-316D88BF3691}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "Behavioral\State\State.csproj", "{00EFC154-3B9B-4252-ACFF-F080EA004A6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{46ED05A8-3CBC-43A5-AB6C-316D88BF3691}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46ED05A8-3CBC-43A5-AB6C-316D88BF3691}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46ED05A8-3CBC-43A5-AB6C-316D88BF3691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00EFC154-3B9B-4252-ACFF-F080EA004A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00EFC154-3B9B-4252-ACFF-F080EA004A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00EFC154-3B9B-4252-ACFF-F080EA004A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00EFC154-3B9B-4252-ACFF-F080EA004A6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,5 +145,6 @@ Global
 		{3A39A326-168B-4880-9836-E3B8AEA17C6D} = {A9F03E35-1913-4957-8F3E-BDFF763FFEFC}
 		{8457BC91-7865-400D-BB80-8A2DC1145297} = {A9F03E35-1913-4957-8F3E-BDFF763FFEFC}
 		{46ED05A8-3CBC-43A5-AB6C-316D88BF3691} = {A9F03E35-1913-4957-8F3E-BDFF763FFEFC}
+		{00EFC154-3B9B-4252-ACFF-F080EA004A6B} = {A9F03E35-1913-4957-8F3E-BDFF763FFEFC}
 	EndGlobalSection
 EndGlobal
