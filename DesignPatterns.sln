@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Behavioral\Memen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dispose", "Behavioral\Dispose\Dispose.csproj", "{8457BC91-7865-400D-BB80-8A2DC1145297}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Behavioral\Observer\Observer.csproj", "{46ED05A8-3CBC-43A5-AB6C-316D88BF3691}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{8457BC91-7865-400D-BB80-8A2DC1145297}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8457BC91-7865-400D-BB80-8A2DC1145297}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8457BC91-7865-400D-BB80-8A2DC1145297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46ED05A8-3CBC-43A5-AB6C-316D88BF3691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46ED05A8-3CBC-43A5-AB6C-316D88BF3691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46ED05A8-3CBC-43A5-AB6C-316D88BF3691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46ED05A8-3CBC-43A5-AB6C-316D88BF3691}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,5 +138,6 @@ Global
 		{05EB9223-3303-49C4-A0BD-FAEAB2FFE667} = {A9F03E35-1913-4957-8F3E-BDFF763FFEFC}
 		{3A39A326-168B-4880-9836-E3B8AEA17C6D} = {A9F03E35-1913-4957-8F3E-BDFF763FFEFC}
 		{8457BC91-7865-400D-BB80-8A2DC1145297} = {A9F03E35-1913-4957-8F3E-BDFF763FFEFC}
+		{46ED05A8-3CBC-43A5-AB6C-316D88BF3691} = {A9F03E35-1913-4957-8F3E-BDFF763FFEFC}
 	EndGlobalSection
 EndGlobal
