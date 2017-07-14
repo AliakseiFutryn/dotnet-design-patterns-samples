@@ -53,12 +53,13 @@ Contributions are always welcome!
 
 ## [Strategy](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Strategy)
 
-## [Observer](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Observer)
 * This pattern can be used, when the behavior of your code should be dependent on some circumstances. [wiki](https://en.wikipedia.org/wiki/Strategy_pattern)
   * This pattern is recommended in the following cases:
     * You have to encapsulate behavior or some algorithm.
     * You have to replace behavior or algorithm at runtime.
     * You have to implement something like sorting, validation, data analys, serialization or etc.
+    
+## [Observer](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Observer)
 
 * This pattern can be used, when you want to have a heap of dependent objects which can notify each other about its changes. [wiki](https://en.wikipedia.org/wiki/Observer_pattern)
   * This pattern is recommended in the following cases:
