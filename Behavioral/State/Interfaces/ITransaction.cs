@@ -1,4 +1,6 @@
-﻿namespace State.Interfaces
+﻿using State.Entities;
+
+namespace State.Interfaces
 {
 	internal interface ITransaction : ITransactionState
 	{
@@ -29,7 +31,15 @@
 		///   <c>true</c> if [transaction completed]; otherwise, <c>false</c>.
 		/// </value>
 		bool TransactionCompleted { get; set; }
-		
+
+		/// <summary>
+		/// Gets the state of the transaction.
+		/// </summary>
+		/// <value>
+		/// The state of the transaction.
+		/// </value>
+		TransactionState TransactionState { get; }
+
 		/// <summary>
 		/// Gets the state of the sum.
 		/// </summary>

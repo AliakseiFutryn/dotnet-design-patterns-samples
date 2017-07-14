@@ -87,7 +87,7 @@ namespace State.Impl
 
 		public bool TransactionCompleted { get; set; }
 
-		internal TransactionState TransactionState => _transactionState;
+		public TransactionState TransactionState => _transactionState;
 
 		#endregion
 	}
