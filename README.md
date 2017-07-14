@@ -14,6 +14,7 @@ Contributions are always welcome!
     * [Memento](#memento)
     * [Command](#command)
     * [Interpreter](#interpreter)
+    * [Template method](#template-method)
     * [Chain of responsibility](#chain-of-responsibility)
   * [Generating patterns](#generating)
     * [Builder](#builder)
@@ -98,6 +99,14 @@ Contributions are always welcome!
     * You need to evaluate sentences in a language.
     * You need to interpret some symbols into C# langunage.
     * You want to create your own langunage interpreter.
+
+## [Template method](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/TemplateMethod)
+
+* This is a design pattern and in the template method of this pattern, one or more algorithm steps can be overridden by subclasses to allow differing behaviors while ensuring that the overarching algorithm is still followed. [wiki](https://en.wikipedia.org/wiki/Template_method_pattern)
+  * This pattern is recommended in the following cases:
+    * You want create an algorithm with predefined methods where some steps can be overriden by inheritor.
+    * You want to create many quite similar classes except some methods.
+    * You want to change the behevior at runtime depending on type of classes which should be inherit from one abstract class.
 
 ## [Chain of responsibility](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Behavioral/ChainOfResponsibility)
 
