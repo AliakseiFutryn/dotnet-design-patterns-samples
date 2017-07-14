@@ -8,6 +8,7 @@ Contributions are always welcome!
     * [State](#state)
     * [Iterator](#iterator)
     * [Dispose](#dispose)
+    * [Strategy](#strategy)
     * [Observer](#observer)
     * [Mediator](#mediator)
     * [Memento](#memento)
@@ -50,7 +51,14 @@ Contributions are always welcome!
     * You have to deal with managed resources, make sure that in this case you do not need to use the full version of disposable pattern.
     * You want to control the memory in your application, as it is very important.
 
+## [Strategy](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Strategy)
+
 ## [Observer](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Observer)
+* This pattern can be used, when the behavior of your code should be dependent on some circumstances. [wiki](https://en.wikipedia.org/wiki/Strategy_pattern)
+  * This pattern is recommended in the following cases:
+    * You have to encapsulate behavior or some algorithm.
+    * You have to replace behavior or algorithm at runtime.
+    * You have to implement something like sorting, validation, data analys, serialization or etc.
 
 * This pattern can be used, when you want to have a heap of dependent objects which can notify each other about its changes. [wiki](https://en.wikipedia.org/wiki/Observer_pattern)
   * This pattern is recommended in the following cases:
