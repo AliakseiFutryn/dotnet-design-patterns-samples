@@ -26,6 +26,7 @@ Contributions are always welcome!
     * [Factory Method](#factory-method)
     * [Abstract Factory](#abstract-factory)
   * [Structural patterns](#structural)
+    * [Bridge](#bridge)
     * [Adapter](#adapter)
     * [Composite](#composite)
 
@@ -172,6 +173,13 @@ Contributions are always welcome!
     * You want to change behavior of your code by using different classes which implement a similar interface.
 
 ## Structural
+## [Bridge](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Structural/Bridge)
+* The bridge pattern is a design pattern used in software engineering that is meant to "decouple an abstraction from its implementation so that the two can vary independently". [wiki] (https://en.wikipedia.org/wiki/Bridge_pattern)
+  * This pattern is recommended in the following cases:
+    * You need to decouple abstraction from implementation.
+    * You have to implement a service where methods should be dependent of internal provider.
+    * You have to implement more than one similar classes which should use different data providers.
+
 ## [Adapter](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Structural/Adapter)
 
 * This is a structural pattern, that allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code. [wiki](https://en.wikipedia.org/wiki/Adapter_pattern)
