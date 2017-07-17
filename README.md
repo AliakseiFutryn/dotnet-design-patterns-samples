@@ -6,6 +6,7 @@ Contributions are always welcome!
 * [.NET design patterns](#dotnet-design-patterns)
   * [Behavioral patterns](#behavioral)
     * [State](#state)
+    * [Visitor](#visitor)
     * [Iterator](#iterator)
     * [Dispose](#dispose)
     * [Strategy](#strategy)
@@ -35,6 +36,13 @@ Contributions are always welcome!
     * You want to create an objech which can change its behavior at runtime.
     * You need to have many strategies of the object behavior.
     * You have to change code behavior at runtime.
+
+## [Visitor](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Visitor)
+* The visitor pattern describes operation, which should be perform with each object from some hierarchy of classes. The visitor pattern allows to declare a new operation without changing classes of those objects. [wiki](https://en.wikipedia.org/wiki/Visitor_pattern)
+  * This pattern is recommended in the following cases:
+    * You want to separate an algorithm from an object structure on which it operates.
+    * You want to add new operations to extant object structures without modifying the structures.
+    * You want to add new operations and do not break open/closed principle.
 
 ## [Iterator](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/Iterator)
 
