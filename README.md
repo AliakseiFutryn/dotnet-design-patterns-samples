@@ -174,7 +174,7 @@ Contributions are always welcome!
 
 ## Structural
 ## [Bridge](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Structural/Bridge)
-* The bridge pattern is a design pattern used in software engineering that is meant to "decouple an abstraction from its implementation so that the two can vary independently". [wiki] (https://en.wikipedia.org/wiki/Bridge_pattern)
+* The bridge pattern is a design pattern used in software engineering that is meant to "decouple an abstraction from its implementation so that the two can vary independently". [wiki](https://en.wikipedia.org/wiki/Bridge_pattern)
   * This pattern is recommended in the following cases:
     * You need to decouple abstraction from implementation.
     * You have to implement a service where methods should be dependent of internal provider.
