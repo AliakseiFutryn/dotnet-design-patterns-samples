@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "Behaviora
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Behavioral\Visitor\Visitor.csproj", "{03F25F6C-6549-4E0C-9126-EDBEA91BB476}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Structural\Bridge\Bridge.csproj", "{D3C78710-8171-4A41-A534-0DD172A94AF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{03F25F6C-6549-4E0C-9126-EDBEA91BB476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03F25F6C-6549-4E0C-9126-EDBEA91BB476}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03F25F6C-6549-4E0C-9126-EDBEA91BB476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C78710-8171-4A41-A534-0DD172A94AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C78710-8171-4A41-A534-0DD172A94AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C78710-8171-4A41-A534-0DD172A94AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C78710-8171-4A41-A534-0DD172A94AF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -167,5 +173,6 @@ Global
 		{44F639E6-3819-4872-8D31-943A873DB031} = {A9F03E35-1913-4957-8F3E-BDFF763FFEFC}
 		{9425B910-B914-49DA-B244-48104345F839} = {A9F03E35-1913-4957-8F3E-BDFF763FFEFC}
 		{03F25F6C-6549-4E0C-9126-EDBEA91BB476} = {A9F03E35-1913-4957-8F3E-BDFF763FFEFC}
+		{D3C78710-8171-4A41-A534-0DD172A94AF6} = {B3D74B27-CE92-449A-90F9-76983470A74F}
 	EndGlobalSection
 EndGlobal
