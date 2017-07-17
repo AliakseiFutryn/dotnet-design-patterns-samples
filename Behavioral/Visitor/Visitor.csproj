@@ -45,6 +45,7 @@
     <Compile Include="Entities\GeneralArgument.cs" />
     <Compile Include="Entities\SpecialArgument.cs" />
     <Compile Include="Impl\ArgumentsLooker.cs" />
+    <Compile Include="Impl\ArgumentsResearcher.cs" />
     <Compile Include="Interfaces\IArgument.cs" />
     <Compile Include="Interfaces\IVisitor.cs" />
     <Compile Include="SampleLauncher.cs" />
