@@ -28,6 +28,7 @@ Contributions are always welcome!
   * [Structural patterns](#structural)
     * [Bridge](#bridge)
     * [Adapter](#adapter)
+    * [Decorator](#decorator)
     * [Composite](#composite)
 
 ## Behavioral
@@ -186,7 +187,14 @@ Contributions are always welcome!
   * This pattern is recommended in the following cases:
     * When you have to create a wrapper, that must respect a particular interface and must support polymorphic behavior.
     * When you have a situation, where classes with different interfaces should work together.
-    
+
+## [Decorator](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Structural/Decorator)
+* The decorator pattern (also known as Wrapper, an alternative naming shared with the Adapter pattern) is a design pattern that allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class. [wiki](https://en.wikipedia.org/wiki/Decorator_pattern)
+  * This pattern is recommended in the following cases:
+    * You have to add additional behavior to the class without affecting any other objects in this class.
+    * You want to create a wrapper which will be responsible for doing some action above the current class.
+    * You want to extend the functionality of current class (cache results, manage user access, logging arguments and etc.).
+
 ## [Composite](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Structural/Composite)
 
 * This is a structural pattern, that describes that a group of objects is to be treated in the same way as a single instance of an object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies. Implementing the composite pattern lets clients treat individual objects and compositions uniformly. [wiki](https://en.wikipedia.org/wiki/Composite_pattern)
