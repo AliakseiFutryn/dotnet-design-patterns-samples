@@ -26,6 +26,7 @@ Contributions are always welcome!
     * [Factory Method](#factory-method)
     * [Abstract Factory](#abstract-factory)
   * [Structural patterns](#structural)
+    * [Proxy](#proxy)
     * [Bridge](#bridge)
     * [Facade](#facade)
     * [Adapter](#adapter)
@@ -176,6 +177,13 @@ Contributions are always welcome!
     * You want to change behavior of your code by using different classes which implement a similar interface.
 
 ## Structural
+## [Proxy](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Structural/Proxy)
+* The proxy pattern is a class functioning as an interface to something else. [wiki](https://en.wikipedia.org/wiki/Proxy_pattern)
+  * This pattern is recommended in the following cases:
+    * You want to add restriction to use some API or resource.
+    * You want to do some preparations before accessing the resource.
+    * You want to create an interface to a network connection, a large object in memory or something else that is expensive or impossible to duplicate.
+
 ## [Bridge](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Structural/Bridge)
 * The bridge pattern is a design pattern used in software engineering that is meant to "decouple an abstraction from its implementation so that the two can vary independently". [wiki](https://en.wikipedia.org/wiki/Bridge_pattern)
   * This pattern is recommended in the following cases:
