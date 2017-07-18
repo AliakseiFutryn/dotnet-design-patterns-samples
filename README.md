@@ -27,6 +27,7 @@ Contributions are always welcome!
     * [Abstract Factory](#abstract-factory)
   * [Structural patterns](#structural)
     * [Bridge](#bridge)
+    * [Facade](#facade)
     * [Adapter](#adapter)
     * [Decorator](#decorator)
     * [Composite](#composite)
@@ -180,6 +181,13 @@ Contributions are always welcome!
     * You need to decouple abstraction from implementation.
     * You have to implement a service where methods should be dependent of internal provider.
     * You have to implement more than one similar classes which should use different data providers.
+
+## [Facade](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Structural/Facade)
+* The facade design pattern represent an object that provides a simplified interface to a larger body of code, such as a class library. [wiki](https://en.wikipedia.org/wiki/Facade_pattern)
+  * This pattern is recommended in the following cases:
+    * You want to wrap a poorly designed collection of APIs with a single well-designed API.
+    * You want to reduce dependencies of outside code on the inner workings of a library, since most code uses the facade, thus allowing more flexibility in developing the system.
+    * You want to make a software library easier to use, understand and test, since the facade has convenient methods for common tasks.
 
 ## [Adapter](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/blob/master/Structural/Adapter)
 
