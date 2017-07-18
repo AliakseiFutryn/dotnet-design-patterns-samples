@@ -33,6 +33,7 @@ Contributions are always welcome!
     * [Flyweight](#flyweight)
     * [Decorator](#decorator)
     * [Composite](#composite)
+    * [Specification](#specification)
 
 ## Behavioral
 ## [State](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Behavioral/State)
@@ -225,3 +226,11 @@ Contributions are always welcome!
   * This pattern is recommended in the following cases:
     * When you have a situation, where you can ignore the difference between compositions of objects and individual objects.
     * When you have a situation, where you are using multiple objects in the same way, and you often have nearly identical code to handle each of them.
+    
+## [Specification](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Structural/Specification)
+
+* The specification pattern is a particular software design pattern, whereby business rules can be recombined by chaining the business rules together using boolean logic. [wiki](https://en.wikipedia.org/wiki/Specification_pattern)
+  * This pattern is recommended in the following cases:
+    * You want to check that some object is following rules.
+    * You want to validate an objects for compliance.
+    * You want ot have a flexible solution which will allow you to add new rules for an object in the future.
