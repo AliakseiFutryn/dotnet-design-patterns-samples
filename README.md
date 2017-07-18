@@ -29,6 +29,7 @@ Contributions are always welcome!
     * [Bridge](#bridge)
     * [Facade](#facade)
     * [Adapter](#adapter)
+    * [Flyweight](#flyweight)
     * [Decorator](#decorator)
     * [Composite](#composite)
 
@@ -195,6 +196,13 @@ Contributions are always welcome!
   * This pattern is recommended in the following cases:
     * When you have to create a wrapper, that must respect a particular interface and must support polymorphic behavior.
     * When you have a situation, where classes with different interfaces should work together.
+
+## [Flyweight](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Structural/Flyweight)
+* The flyweight pattern is used to minimizes memory usage by sharing as much data as possible with other similar objects. [wiki](https://en.wikipedia.org/wiki/Flyweight_pattern)
+  * This pattern is recommended in the following cases:
+    * You want to decrease memory usage in your application.
+    * You want to use objects in large numbers when a simple repeated representation would use an unacceptable amount of memory.
+    * You have some objects in external data structure and you want pass them to the flyweight objects temporarily when they are used.
 
 ## [Decorator](https://github.com/AliakseiFutryn/dotnet-design-patterns-samples/tree/master/Structural/Decorator)
 * The decorator pattern (also known as Wrapper, an alternative naming shared with the Adapter pattern) is a design pattern that allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class. [wiki](https://en.wikipedia.org/wiki/Decorator_pattern)
